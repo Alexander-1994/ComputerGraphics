@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Graphic_LR_1/Graphic_LR_1.vcxproj" Id="e921b4e8-e0b8-4c3c-b864-a56750b2790d" />
+  <Project Path="Graphic_LR_2/Graphic_LR_2.vcxproj" Id="61d0891d-17de-4185-ab2d-36bae70b20e1" />
 </Solution>
