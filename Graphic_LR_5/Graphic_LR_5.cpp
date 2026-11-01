@@ -77,7 +77,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(512, 512, "OpenGL Window", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(768, 768, "OpenGL Window", NULL, NULL);
     if (!window) {
         glfwTerminate();
         return -1;
@@ -109,7 +109,7 @@ int main() {
     }
 
     // Загрузка модели через ASSIMP
-    Model model("Cube.obj");
+    Model model("../Graphic_LR_3/industrial_robot.obj");
 
     glm::mat4 projection = glm::perspective(
         glm::radians(FOV),
